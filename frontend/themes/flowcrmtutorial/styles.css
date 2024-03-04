@@ -6,3 +6,9 @@
     display: none;
   }
 }
+
+/*Die ausgewählte Seite in der Navigation wird gehighlighted*/
+a[highlight] {
+    font-weight: bold;
+    text-decoration: underline;
+}
