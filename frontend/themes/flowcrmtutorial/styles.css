@@ -1,0 +1,8 @@
+
+/*die Toolbar und das Kontaktgrid werden ausgeblendet, wenn die Breite vom Bildschirm weniger als 1100px ist*/
+@media all and (max-width: 1100px) {
+  .list-view.editing .toolbar,
+  .list-view.editing .contact-grid {
+    display: none;
+  }
+}
